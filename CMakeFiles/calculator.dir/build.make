@@ -63,10 +63,10 @@ RM = /usr/bin/cmake3 -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /class/classes/mslan002/lab07
+CMAKE_SOURCE_DIR = /class/classes/ckwin001/lab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /class/classes/mslan002/lab07
+CMAKE_BINARY_DIR = /class/classes/ckwin001/lab7
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculator.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/calculator.dir/flags.make
 
 CMakeFiles/calculator.dir/src/main.cpp.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/mslan002/lab07/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/src/main.cpp.o"
-	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/src/main.cpp.o -c /class/classes/mslan002/lab07/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/ckwin001/lab7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/src/main.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/src/main.cpp.o -c /class/classes/ckwin001/lab7/src/main.cpp
 
 CMakeFiles/calculator.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/main.cpp.i"
-	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/mslan002/lab07/src/main.cpp > CMakeFiles/calculator.dir/src/main.cpp.i
+	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/ckwin001/lab7/src/main.cpp > CMakeFiles/calculator.dir/src/main.cpp.i
 
 CMakeFiles/calculator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/main.cpp.s"
-	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/mslan002/lab07/src/main.cpp -o CMakeFiles/calculator.dir/src/main.cpp.s
+	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/ckwin001/lab7/src/main.cpp -o CMakeFiles/calculator.dir/src/main.cpp.s
 
 CMakeFiles/calculator.dir/src/factory.cpp.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/src/factory.cpp.o: src/factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/mslan002/lab07/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/src/factory.cpp.o"
-	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/src/factory.cpp.o -c /class/classes/mslan002/lab07/src/factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/ckwin001/lab7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/src/factory.cpp.o"
+	/opt/rh/devtoolset-6/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/src/factory.cpp.o -c /class/classes/ckwin001/lab7/src/factory.cpp
 
 CMakeFiles/calculator.dir/src/factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/src/factory.cpp.i"
-	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/mslan002/lab07/src/factory.cpp > CMakeFiles/calculator.dir/src/factory.cpp.i
+	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/ckwin001/lab7/src/factory.cpp > CMakeFiles/calculator.dir/src/factory.cpp.i
 
 CMakeFiles/calculator.dir/src/factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/src/factory.cpp.s"
-	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/mslan002/lab07/src/factory.cpp -o CMakeFiles/calculator.dir/src/factory.cpp.s
+	/opt/rh/devtoolset-6/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/ckwin001/lab7/src/factory.cpp -o CMakeFiles/calculator.dir/src/factory.cpp.s
 
 # Object files for target calculator
 calculator_OBJECTS = \
@@ -115,7 +115,7 @@ calculator: CMakeFiles/calculator.dir/src/main.cpp.o
 calculator: CMakeFiles/calculator.dir/src/factory.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
 calculator: CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/class/classes/mslan002/lab07/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/class/classes/ckwin001/lab7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/calculator.dir/clean:
 .PHONY : CMakeFiles/calculator.dir/clean
 
 CMakeFiles/calculator.dir/depend:
-	cd /class/classes/mslan002/lab07 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /class/classes/mslan002/lab07 /class/classes/mslan002/lab07 /class/classes/mslan002/lab07 /class/classes/mslan002/lab07 /class/classes/mslan002/lab07/CMakeFiles/calculator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /class/classes/ckwin001/lab7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /class/classes/ckwin001/lab7 /class/classes/ckwin001/lab7 /class/classes/ckwin001/lab7 /class/classes/ckwin001/lab7 /class/classes/ckwin001/lab7/CMakeFiles/calculator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calculator.dir/depend
 

@@ -4,6 +4,8 @@
 CMakeFiles/test.dir/tests/unit_test.cpp.o: src/add.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: src/base.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: src/div.hpp
+CMakeFiles/test.dir/tests/unit_test.cpp.o: src/factory.cpp
+CMakeFiles/test.dir/tests/unit_test.cpp.o: src/factory.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: src/mult.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: src/op.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: src/pow.hpp
@@ -13,6 +15,7 @@ CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/add_mock.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/add_test.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/div_mock.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/div_test.hpp
+CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/factory_test.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/mult_mock.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/mult_test.hpp
 CMakeFiles/test.dir/tests/unit_test.cpp.o: tests/op_test.hpp
