@@ -3,12 +3,13 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 ADD_SUBDIRECTORY(googletest)
 
 SET(CMAKE_CXX_STANDARD 11)
+#SET(CMAKE_BUILD_TYPE Debug)
 
 ADD_EXECUTABLE(test
     tests/unit_test.cpp
 )
 
-ADD_EXECUTABLE(lab
+ADD_EXECUTABLE(calculator
     src/main.cpp
     src/factory.cpp
 )

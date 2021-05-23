@@ -8,6 +8,7 @@ CMakeFiles/lab.dir/src/factory.cpp.o: src/factory.cpp
 CMakeFiles/lab.dir/src/factory.cpp.o: src/factory.hpp
 CMakeFiles/lab.dir/src/factory.cpp.o: src/mult.hpp
 CMakeFiles/lab.dir/src/factory.cpp.o: src/op.hpp
+CMakeFiles/lab.dir/src/factory.cpp.o: src/pow.hpp
 CMakeFiles/lab.dir/src/factory.cpp.o: src/sub.hpp
 
 CMakeFiles/lab.dir/src/main.cpp.o: src/add.hpp

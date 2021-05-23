@@ -31,7 +31,12 @@ int main(int argc, char** argv) {
     char** operation = argv + 1;
     int oplen = argc - 1;
 
-    std::cout << f->parse(operation, oplen)->evaluate() << std::endl;
+    Base* result = f->parse(operation, oplen);
+
+    std::cout << result->evaluate() << std::endl;
+
+    delete result;
+    delete f;
 
     return 0;
 }

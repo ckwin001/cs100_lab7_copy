@@ -4,6 +4,7 @@
 #include "sub.hpp"
 #include "mult.hpp"
 #include "div.hpp"
+#include "pow.hpp"
 
 #include <stdio.h>
 #include <ctype.h>
@@ -49,6 +50,10 @@ Base* Factory::parse(char** input, int length) {
 	else if (strcmp(input[i], "/") == 0)  {
 	    Base* left = root;
 	    root = new Div(left, new Op(std::stod(input[++i])));
+	}
+	else if (strcmp(input[i], "**") == 0) {
+	    Base* left = root;
+	    root = new Pow(left, new Op(std::stod(input[++i])));
 	}
 	else {
 	    std::cout << "Parser error: invalid character(s)" << std::endl;

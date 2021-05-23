@@ -14,6 +14,11 @@ class Mult: public Base {
 	    op2 = b;
 	}
 
+	~Mult() {
+	    delete op1;
+	    delete op2;
+	}
+
 	virtual double evaluate() {
 	    return (op1->evaluate() * op2->evaluate());
 	}

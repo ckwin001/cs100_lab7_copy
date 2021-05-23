@@ -15,7 +15,11 @@ class Pow : public Base {
 	operand1 = op1;
 	operand2 = op2;
     }
-        ~Pow() {}
+        
+    ~Pow() {
+	delete operand1;
+	delete operand2;		
+    }
         
         
         virtual double evaluate(){

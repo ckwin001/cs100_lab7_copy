@@ -10,19 +10,22 @@ class Add : public Base  {
 	Base* operand2;
     public:
 
-        Add(Base* op1, Base* op2) {
+    Add(Base* op1, Base* op2) {
 	operand1 = op1;
 	operand2 = op2;
     }
-        ~Add() {}
+    
+    ~Add() {
+	delete operand1;
+	delete operand2;
+    }   
         
-        
-        virtual double evaluate(){
+    virtual double evaluate(){
 	    return operand1->evaluate() + operand2->evaluate();
     }
-        virtual std::string stringify()  {
+    virtual std::string stringify()  {
 	    return "("+operand1->stringify()+"+"+operand2->stringify()+")";
-    };
+    }
 };
 
 #endif //__ADD_HPP__

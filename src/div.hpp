@@ -14,6 +14,11 @@ class Div: public Base {
 	    op2 = b;
 	}
 
+	~Div() {
+	    delete op1;
+	    delete op2;
+	}
+
 	virtual double evaluate() {
 	    return (op1->evaluate() / op2->evaluate());
 	}

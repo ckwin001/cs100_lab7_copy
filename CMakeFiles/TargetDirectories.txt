@@ -4,7 +4,7 @@
 /class/classes/mslan002/lab07/CMakeFiles/list_install_components.dir
 /class/classes/mslan002/lab07/CMakeFiles/rebuild_cache.dir
 /class/classes/mslan002/lab07/CMakeFiles/edit_cache.dir
-/class/classes/mslan002/lab07/CMakeFiles/lab.dir
+/class/classes/mslan002/lab07/CMakeFiles/calculator.dir
 /class/classes/mslan002/lab07/CMakeFiles/test.dir
 /class/classes/mslan002/lab07/googletest/CMakeFiles/install/strip.dir
 /class/classes/mslan002/lab07/googletest/CMakeFiles/install/local.dir
