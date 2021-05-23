@@ -6,147 +6,147 @@
 
 #IncludeRegexTransform: 
 
-/class/classes/ckwin001/lab7/src/add.hpp
+/class/classes/mslan002/lab07/src/add.hpp
 string
 -
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 string
 -
 
-/class/classes/ckwin001/lab7/src/div.hpp
+/class/classes/mslan002/lab07/src/div.hpp
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/src/mult.hpp
+/class/classes/mslan002/lab07/src/mult.hpp
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/src/op.hpp
+/class/classes/mslan002/lab07/src/op.hpp
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/src/pow.hpp
+/class/classes/mslan002/lab07/src/pow.hpp
 cmath
 -
 string
 -
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/src/rand.hpp
+/class/classes/mslan002/lab07/src/rand.hpp
 stdlib.h
 -
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/src/sub.hpp
+/class/classes/mslan002/lab07/src/sub.hpp
 string
 -
 base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/tests/add_mock.hpp
+/class/classes/mslan002/lab07/tests/add_mock.hpp
 string
 -
 ../src/base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/tests/add_test.hpp
+/class/classes/mslan002/lab07/tests/add_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 ../src/add.hpp
-/class/classes/ckwin001/lab7/src/add.hpp
+/class/classes/mslan002/lab07/src/add.hpp
 sub_mock.hpp
-/class/classes/ckwin001/lab7/tests/sub_mock.hpp
+/class/classes/mslan002/lab07/tests/sub_mock.hpp
 
-/class/classes/ckwin001/lab7/tests/div_mock.hpp
+/class/classes/mslan002/lab07/tests/div_mock.hpp
 ../src/base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/tests/div_test.hpp
+/class/classes/mslan002/lab07/tests/div_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 cmath
 -
 ../src/div.hpp
-/class/classes/ckwin001/lab7/src/div.hpp
+/class/classes/mslan002/lab07/src/div.hpp
 mult_mock.hpp
-/class/classes/ckwin001/lab7/tests/mult_mock.hpp
+/class/classes/mslan002/lab07/tests/mult_mock.hpp
 
-/class/classes/ckwin001/lab7/tests/mult_mock.hpp
+/class/classes/mslan002/lab07/tests/mult_mock.hpp
 ../src/base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/tests/mult_test.hpp
+/class/classes/mslan002/lab07/tests/mult_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 div_mock.hpp
-/class/classes/ckwin001/lab7/tests/div_mock.hpp
+/class/classes/mslan002/lab07/tests/div_mock.hpp
 ../src/mult.hpp
-/class/classes/ckwin001/lab7/src/mult.hpp
+/class/classes/mslan002/lab07/src/mult.hpp
 
-/class/classes/ckwin001/lab7/tests/op_test.hpp
+/class/classes/mslan002/lab07/tests/op_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 ../src/op.hpp
-/class/classes/ckwin001/lab7/src/op.hpp
+/class/classes/mslan002/lab07/src/op.hpp
 
-/class/classes/ckwin001/lab7/tests/pow_mock.hpp
+/class/classes/mslan002/lab07/tests/pow_mock.hpp
 string
 -
 ../src/base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/tests/pow_test.hpp
+/class/classes/mslan002/lab07/tests/pow_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 ../src/pow.hpp
-/class/classes/ckwin001/lab7/src/pow.hpp
+/class/classes/mslan002/lab07/src/pow.hpp
 add_mock.hpp
-/class/classes/ckwin001/lab7/tests/add_mock.hpp
+/class/classes/mslan002/lab07/tests/add_mock.hpp
 
-/class/classes/ckwin001/lab7/tests/rand_test.hpp
+/class/classes/mslan002/lab07/tests/rand_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 ../src/rand.hpp
-/class/classes/ckwin001/lab7/src/rand.hpp
+/class/classes/mslan002/lab07/src/rand.hpp
 
-/class/classes/ckwin001/lab7/tests/sub_mock.hpp
+/class/classes/mslan002/lab07/tests/sub_mock.hpp
 string
 -
 ../src/base.hpp
-/class/classes/ckwin001/lab7/src/base.hpp
+/class/classes/mslan002/lab07/src/base.hpp
 
-/class/classes/ckwin001/lab7/tests/sub_test.hpp
+/class/classes/mslan002/lab07/tests/sub_test.hpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 ../src/sub.hpp
-/class/classes/ckwin001/lab7/src/sub.hpp
+/class/classes/mslan002/lab07/src/sub.hpp
 pow_mock.hpp
-/class/classes/ckwin001/lab7/tests/pow_mock.hpp
+/class/classes/mslan002/lab07/tests/pow_mock.hpp
 
-/class/classes/ckwin001/lab7/tests/unit_test.cpp
+/class/classes/mslan002/lab07/tests/unit_test.cpp
 gtest/gtest.h
-/class/classes/ckwin001/lab7/tests/gtest/gtest.h
+/class/classes/mslan002/lab07/tests/gtest/gtest.h
 op_test.hpp
-/class/classes/ckwin001/lab7/tests/op_test.hpp
+/class/classes/mslan002/lab07/tests/op_test.hpp
 rand_test.hpp
-/class/classes/ckwin001/lab7/tests/rand_test.hpp
+/class/classes/mslan002/lab07/tests/rand_test.hpp
 add_test.hpp
-/class/classes/ckwin001/lab7/tests/add_test.hpp
+/class/classes/mslan002/lab07/tests/add_test.hpp
 sub_test.hpp
-/class/classes/ckwin001/lab7/tests/sub_test.hpp
+/class/classes/mslan002/lab07/tests/sub_test.hpp
 pow_test.hpp
-/class/classes/ckwin001/lab7/tests/pow_test.hpp
+/class/classes/mslan002/lab07/tests/pow_test.hpp
 mult_test.hpp
-/class/classes/ckwin001/lab7/tests/mult_test.hpp
+/class/classes/mslan002/lab07/tests/mult_test.hpp
 div_test.hpp
-/class/classes/ckwin001/lab7/tests/div_test.hpp
+/class/classes/mslan002/lab07/tests/div_test.hpp
 sub_mock.hpp
-/class/classes/ckwin001/lab7/tests/sub_mock.hpp
+/class/classes/mslan002/lab07/tests/sub_mock.hpp
 
 googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

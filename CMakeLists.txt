@@ -10,6 +10,7 @@ ADD_EXECUTABLE(test
 
 ADD_EXECUTABLE(lab
     src/main.cpp
+    src/factory.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)

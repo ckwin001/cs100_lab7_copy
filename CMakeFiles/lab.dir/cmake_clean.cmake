@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab.dir/src/factory.cpp.o"
   "CMakeFiles/lab.dir/src/main.cpp.o"
   "lab"
   "lab.pdb"
