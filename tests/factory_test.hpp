@@ -75,6 +75,14 @@ TEST(FactoryTest, fail_ExtraOperand ) {
     EXPECT_TRUE(op == nullptr);
 }
 
+TEST(FactoryTest, fail_ExtraOperator ) {
+    Factory test;
+    char *args[]={"3", "+", "+"};
+    Base *op = test.parse(args, 3);
+    EXPECT_TRUE(op == nullptr);
+}
+
+
 TEST(FactoryTest, AddSub ) {
     Factory test;
     char *args[]={"5", "+", "3", "-", "4"};
