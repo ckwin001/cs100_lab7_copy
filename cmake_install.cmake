@@ -1,4 +1,4 @@
-# Install script for directory: /class/classes/ckwin001/lab7
+# Install script for directory: /class/classes/mslan002/lab07
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/class/classes/ckwin001/lab7/googletest/cmake_install.cmake")
+  include("/class/classes/mslan002/lab07/googletest/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/class/classes/ckwin001/lab7/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/class/classes/mslan002/lab07/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

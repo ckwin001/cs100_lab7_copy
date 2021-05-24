@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = -Dgtest_disable_pthreads=ON
 
-CXX_INCLUDES = -isystem /class/classes/ckwin001/lab7/googletest/googletest/include -isystem /class/classes/ckwin001/lab7/googletest/googletest 
+CXX_INCLUDES = -isystem /class/classes/mslan002/lab07/googletest/googletest/include -isystem /class/classes/mslan002/lab07/googletest/googletest 
 
